@@ -1,48 +1,48 @@
 var allQuestions = [{
-    question: "Before Mt. Everest was discovered, whaich mountain was considered to be the highest mountain in the world?",
-    choices: ["Mt. Kilimanjaro", "Kanchenjunga", "Mount Everest"],
+    question: "In which state is Mount Rushmore located?",
+    choices: ["North Dakota", "South Dakota", "Wyoming", "Nevada"],
     correctAnswer: 1
   },
 
   {
-    question: "Does England have a 4th of July?",
-    choices: ["Yes", "No", "I don't know"],
+    question: "Which US State is nicknamed 'The Land of 10,000 Lakes'?",
+    choices: ["Minnesota", "Alaska", "Idaho", "Michigan"],
     correctAnswer: 0
   },
 
   {
-    question: "What is Rupert the bear's middle name?",
-    choices: ["Bear", "He doesn't have one!", "The", "Rupert"],
+    question: "How many US States are landlocked?",
+    choices: ["14", "22", "16", "31"],
     correctAnswer: 2
   },
 
   {
-    question: " What can you never eat for breakfast? ",
-    choices: ["Dinner", "Something sugary", "Lunch", "Supper"],
+    question: " What is the tallest mountain in the US? ",
+    choices: ["Mt. McKinley", "Mt. Rainier", "Mt. Elbert", "Mt. Whitney"],
     correctAnswer: 0
   },
 
   {
-    question: "If there are three apples and you took two away, how many do you have?",
-    choices: ["One", "Two", "None"],
+    question: "In which state is Death Valley located?",
+    choices: ["Nevada", "California", "New Mexico", "Arizona"],
     correctAnswer: 1
   },
 
   {
-    question: "Spell 'Silk' out loud, 3 times in a row. What do cows drink?",
-    choices: ["Milk", "Water", "Juice", "Cows can't drink"],
+    question: "Which river runs through the Grand Canyon?",
+    choices: ["The Boise River", "The Colorado River", "The Missouri River", "The river remains unnamed to this day"],
     correctAnswer: 1
   },
 
   {
-    question: "Which is heavier, 100 pounds of rocks or 100 pounds of gold? ",
-    choices: ["100 pounds of rocks", "100 pounds of rocks", "They weigh the same"],
+    question: "What is the most visited mountain in North America? ",
+    choices: ["Mt. Saint Helens", "Mt. Rainier", "Pikes Peak", "Mt. Whitney" ],
     correctAnswer: 2
   },
 
   {
-    question: "Can you spell 80 in two letters?",
-    choices: ["AI-TY", "It's not possible", "EIGH-TY", "A-T"],
+    question: "Which one of the following is not one of Pittsburgh's 'Three Rivers'?",
+    choices: ["Ohio", "Mononghahela", "Allegany", "Shenango"],
     correctAnswer: 3
   },
 
@@ -58,6 +58,7 @@ var allQuestions = [{
     correctAnswer: 2
   },
 ];
+var timeCount = 20;
 var currentquestion = 0;
 var correctAnswers = 0;
 
