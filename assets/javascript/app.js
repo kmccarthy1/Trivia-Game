@@ -57,36 +57,6 @@ var allQuestions = [{
     choices: ["The back", "None. It's a circle", "Two", "Four"],
     correctAnswer: 2
   },
-
-  {
-    question: "What has a tail but no body?",
-    choices: ["A human", "A coin", "A cloud"],
-    correctAnswer: 1
-  },
-
-  {
-    question: "What word in the English language is always spelled incorrectly?",
-    choices: ["It's possible to spell anything right as long as you learn it", "Shakespeare", "Onomatopoeia", "Incorrectly"],
-    correctAnswer: 3
-  },
-
-  {
-    question: "When do you stop at green and go at red?",
-    choices: ["Watermelon!", "Traffic light!", "Garden"],
-    correctAnswer: 0
-  },
-
-  {
-    question: "What rotates but still remains in the same place?",
-    choices: ["Bottle (spin the bottle game)", "Clock", "Stairs"],
-    correctAnswer: 2
-  },
-
-  {
-    question: "How can you lift an elephant with one hand?",
-    choices: ["Truck", "Use both hands!", "Use a lever", "There is no such thing"],
-    correctAnswer: 3
-  }
 ];
 var currentquestion = 0;
 var correctAnswers = 0;
@@ -122,7 +92,7 @@ $(document).ready(function() {
       max: allQuestions.length - 1,
       value: 0
     });
-  });
+  }); 
 
   setupOptions();
 
